@@ -264,25 +264,29 @@ function M.apply()
 
     -- noice
     hi("NoiceCmdline", { fg = p.off_white, bg = p.gunmetal })
-    hi("NoiceCmdlineIcon", { fg = p.electric_blue, bg = p.gunmetal })
-    hi("NoiceCmdlineIconLua", { fg = p.electric_blue, bg = p.gunmetal })
-    hi("NoiceCmdlineIconSearch", { fg = p.electric_blue, bg = p.gunmetal })
+
     hi("NoiceCmdlinePopup", { fg = p.slate_light, bg = p.gunmetal })
+    hi("NoiceCmdlineIcon", { fg = p.matrix_green, bg = p.gunmetal })
+    hi("NoiceCmdlineIconLua", { fg = p.electric_blue, bg = p.gunmetal })
+    hi("NoiceCmdlineIconSearch", { fg = p.aurum_gold, bg = p.gunmetal })
+    hi("NoiceCmdlineIconHelp", { fg = p.hot_pink, bg = p.gunmetal })
+
     hi("NoiceCmdlinePopupBorder", { fg = p.electric_blue_dim, bg = p.gunmetal })
     hi("NoiceCmdlinePopupBorderSearch", { fg = p.aurum_gold, bg = p.gunmetal })
+    hi("NoiceCmdlinePopupBorderHelp", { fg = p.neon_pink, bg = p.gunmetal })
     hi("NoiceCmdlinePopupBorderLua", { fg = p.electric_blue, bg = p.gunmetal })
-    hi("NoiceCmdlinePopupBorderFilter", { fg = p.electric_blue_dim, bg = p.gunmetal })
-    hi("NoiceCmdlinePopupBorderHelp", { fg = p.electric_blue_dim, bg = p.gunmetal })
-    hi("NoiceCmdlinePopupBorderInput", { fg = p.electric_blue_dim, bg = p.gunmetal })
-    hi("NoiceCmdlinePopupTitle", { fg = p.electric_blue, bg = p.gunmetal })
+
     hi("NoicePopup", { fg = p.slate_light, bg = p.gunmetal })
     hi("NoicePopupBorder", { fg = p.electric_blue_dim, bg = p.gunmetal })
     hi("NoiceMini", { fg = p.slate_light, bg = p.gunmetal })
+
     hi("NoiceConfirm", { fg = p.off_white, bg = p.gunmetal })
     hi("NoiceConfirmBorder", { fg = p.electric_blue_dim, bg = p.gunmetal })
+
     hi("NoiceLspProgressTitle", { fg = p.chrome_teal })
     hi("NoiceLspProgressClient", { fg = p.electric_blue_dim })
     hi("NoiceLspProgressSpinner", { fg = p.electric_blue })
+
     hi("NoiceFormatProgressDone", { fg = p.void, bg = p.electric_blue })
     hi("NoiceFormatProgressTodo", { fg = p.void, bg = p.gunmetal })
 
@@ -297,6 +301,22 @@ function M.apply()
     hi("BufferLineModified", { fg = p.cyber_orange, bg = p.gunmetal })
     hi("BufferLineModifiedSelected", { fg = p.cyber_orange, bg = p.gunmetal })
     hi("BufferLineBackground", { fg = p.slate_light, bg = p.void})
+    hi("BufferLineOffsetSeparator", { fg = p.slate_light })
+
+    -- indent-blankline
+    hi("IblIndent", { fg = p.gunmetal })
+    hi("iblScope", { fg = p.electric_blue_dim })
+    hi("IblWhitespace", { fg = p.gunmetal })
+
+    -- nvim-tree
+    hi("NvimTreeWinSeparator", { fg = p.slate_light, bg = p.void })
+    hi("NvimTreeRootFolder", { fg = p.aurum_gold, bg = p.gunmetal, bold = true })
+    hi("NvimTreeOpenedFile", { fg = p.electric_blue })
+    hi("NvimTreeDeleted", { fg = p.hot_pink })
+    hi("NvimTreeSymlink", { fg = p.electric_blue_dim })
+    hi("NvimTreeGitNew", { fg = p.matrix_green })
+    hi("NvimTreeGitDirty", { fg = p.cyber_orange })
+    hi("NvimTreeIndentMarker", { fg = p.off_white })
 
     for group, attrs in pairs(cfg.options.overrides) do
         hi(group, attrs)

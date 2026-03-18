@@ -1,9 +1,5 @@
 -- Honeypunk palette
 -- MIT License — https://github.com/tatteddev/Honeypunk
---
--- Usage in a Neovim colorscheme:
---   local p = require('honeypunk.palette')
---   vim.api.nvim_set_hl(0, 'Function', { fg = p.neon_yellow })
 
 -- highly modified honeypunk palette
 
