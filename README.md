@@ -2,7 +2,7 @@
 
 ## Neovim theme based on the palette of [Honeypunk](https://github.com/tatteddev/Honeypunk).
 
-// insert screenshot here
+![Screenshot](https://github.com/nikita-edel/sugarpunk.nvim/blob/main/.github_assets/sugarpunk.png)
 
 ## Installation, Configuration, Usage
 
@@ -48,5 +48,19 @@ The same configuration and usage for both.
 ## Requirements
 - Neovim >= 0.7
 
-## implemented plugins
-// list the plugins here
+## Integrated plugins
+
+- [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
+- [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)
+- [todo-comments.nvim](https://github.com/folke/todo-comments.nvim)
+- [noice.nvim](https://github.com/folke/noice.nvim)
+- [bufferline.nvim](https://github.com/akinsho/bufferline.nvim)
+- [indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim)
+- [nvim-tree.lua](https://github.com/nvim-tree/nvim-tree.lua)
+
+
+## Showcase
+https://github.com/user-attachments/assets/0bc164ed-e91d-4d16-8eee-49b58a7890d6
+
+
+
