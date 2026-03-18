@@ -17,9 +17,9 @@ function M.apply()
 
     -- base
     hi("Normal", { fg = p.slate_light, bg = p.void })
-    hi("NormalFloat", { fg = p.slate_light, bg = p.gunmetal })
+    hi("NormalFloat", { fg = p.slate_light, bg = p.void })
     hi("NormalNC", { fg = p.slate_light, bg = p.void })
-    hi("FloatBorder", { fg = p.slate_light, bg = p.gunmetal })
+    hi("FloatBorder", { fg = p.slate_light, bg = p.void })
     hi("FloatTitle", { fg = p.slate_light, bg = p.gunmetal, bold = true })
     hi("Cursor", { fg = p.void, bg = p.electric_blue })
     hi("CursorLine", { bg = p.gunmetal })
@@ -263,32 +263,32 @@ function M.apply()
     hi("TodoBgHACK", { fg = p.aurum_gold, bold = true })
 
     -- noice
-    hi("NoiceCmdline", { fg = p.off_white, bg = p.gunmetal })
+    hi("NoiceCmdline", { fg = p.off_white, bg = p.void })
 
-    hi("NoiceCmdlinePopup", { fg = p.slate_light, bg = p.gunmetal })
-    hi("NoiceCmdlineIcon", { fg = p.matrix_green, bg = p.gunmetal })
-    hi("NoiceCmdlineIconLua", { fg = p.electric_blue, bg = p.gunmetal })
-    hi("NoiceCmdlineIconSearch", { fg = p.aurum_gold, bg = p.gunmetal })
-    hi("NoiceCmdlineIconHelp", { fg = p.hot_pink, bg = p.gunmetal })
+    hi("NoiceCmdlinePopup", { fg = p.slate_light, bg = p.void })
+    hi("NoiceCmdlineIcon", { fg = p.matrix_green, bg = p.void })
+    hi("NoiceCmdlineIconLua", { fg = p.electric_blue, bg = p.void })
+    hi("NoiceCmdlineIconSearch", { fg = p.aurum_gold, bg = p.void })
+    hi("NoiceCmdlineIconHelp", { fg = p.hot_pink, bg = p.void })
 
-    hi("NoiceCmdlinePopupBorder", { fg = p.electric_blue_dim, bg = p.gunmetal })
-    hi("NoiceCmdlinePopupBorderSearch", { fg = p.aurum_gold, bg = p.gunmetal })
-    hi("NoiceCmdlinePopupBorderHelp", { fg = p.neon_pink, bg = p.gunmetal })
-    hi("NoiceCmdlinePopupBorderLua", { fg = p.electric_blue, bg = p.gunmetal })
+    hi("NoiceCmdlinePopupBorder", { fg = p.electric_blue_dim, bg = p.void })
+    hi("NoiceCmdlinePopupBorderSearch", { fg = p.aurum_gold, bg = p.void })
+    hi("NoiceCmdlinePopupBorderHelp", { fg = p.neon_pink, bg = p.void })
+    hi("NoiceCmdlinePopupBorderLua", { fg = p.electric_blue, bg = p.void })
 
-    hi("NoicePopup", { fg = p.slate_light, bg = p.gunmetal })
-    hi("NoicePopupBorder", { fg = p.electric_blue_dim, bg = p.gunmetal })
-    hi("NoiceMini", { fg = p.slate_light, bg = p.gunmetal })
+    hi("NoicePopup", { fg = p.slate_light, bg = p.void })
+    hi("NoicePopupBorder", { fg = p.electric_blue_dim, bg = p.void })
+    hi("NoiceMini", { fg = p.slate_light, bg = p.void })
 
-    hi("NoiceConfirm", { fg = p.off_white, bg = p.gunmetal })
-    hi("NoiceConfirmBorder", { fg = p.electric_blue_dim, bg = p.gunmetal })
+    hi("NoiceConfirm", { fg = p.off_white, bg = p.void })
+    hi("NoiceConfirmBorder", { fg = p.electric_blue_dim, bg = p.void })
 
     hi("NoiceLspProgressTitle", { fg = p.chrome_teal })
     hi("NoiceLspProgressClient", { fg = p.electric_blue_dim })
     hi("NoiceLspProgressSpinner", { fg = p.electric_blue })
 
     hi("NoiceFormatProgressDone", { fg = p.void, bg = p.electric_blue })
-    hi("NoiceFormatProgressTodo", { fg = p.void, bg = p.gunmetal })
+    hi("NoiceFormatProgressTodo", { fg = p.void, bg = p.void })
 
     -- bufferline
     hi("BufferLineFill", { bg = p.void})
