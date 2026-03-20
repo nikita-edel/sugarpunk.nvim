@@ -1,6 +1,6 @@
 # sugarpunk.nvim
 
-## Neovim theme based on the palette of [Honeypunk](https://github.com/tatteddev/Honeypunk).
+## Neovim colorscheme based on the palette of [Honeypunk](https://github.com/tatteddev/Honeypunk).
 
 ![Screenshot](https://github.com/nikita-edel/sugarpunk.nvim/blob/main/.github_assets/sugarpunk.png)
 
