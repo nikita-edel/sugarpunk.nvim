@@ -70,7 +70,7 @@ function M.apply()
 	hi("SpellCap", { undercurl = true, sp = p.cyber_orange })
 	hi("SpellRare", { undercurl = true, sp = p.chrome_teal })
 	hi("SpellLocal", { undercurl = true, sp = p.electric_blue })
-	hi("Substitute", { fg = p.void, bg = p.cyber_orange })
+	hi("Substitute", {fg = p.void, bg = p.electric_blue_dim })
 
 	-- syntax
 	hi("Comment", { fg = p.slate_light, italic = sComm.italic, bold = sComm.bold })
