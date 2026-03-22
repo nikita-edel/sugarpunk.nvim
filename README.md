@@ -57,6 +57,7 @@ The same configuration and usage for both.
 - [bufferline.nvim](https://github.com/akinsho/bufferline.nvim)
 - [indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim)
 - [nvim-tree.lua](https://github.com/nvim-tree/nvim-tree.lua)
+- [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
 
 
 ## Showcase
