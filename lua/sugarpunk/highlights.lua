@@ -256,11 +256,11 @@ function M.apply()
 	hi("diffIndexLine", { fg = p.chrome_teal })
 
 	-- todo-comments
-	hi("TodoBgTODO", { fg = p.aurum_gold, bold = true })
-	hi("TodoBgFIXME", { fg = p.aurum_gold, bold = true })
-	hi("TodoBgNOTE", { fg = p.aurum_gold, bold = true })
-	hi("TodoBgWARN", { fg = p.aurum_gold, bold = true })
-	hi("TodoBgHACK", { fg = p.aurum_gold, bold = true })
+	hi("TodoBgTODO", { fg = p.aurum_gold, bg = p.void, bold = true })
+	hi("TodoBgFIXME", { fg = p.aurum_gold, bg = p.void, bold = true })
+	hi("TodoBgNOTE", { fg = p.aurum_gold, bg = p.void, bold = true })
+	hi("TodoBgWARN", { fg = p.aurum_gold, bg = p.void, bold = true })
+	hi("TodoBgHACK", { fg = p.aurum_gold, bg = p.void, bold = true })
 
 	-- noice
 	hi("NoiceCmdline", { fg = p.off_white, bg = p.void })
