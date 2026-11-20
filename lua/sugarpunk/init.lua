@@ -1,10 +1,14 @@
 local M = {}
-local vim = vim -- so lsp shuts up
 
 function M.setup(opts)
 	require("sugarpunk.config").setup(opts)
+	M.load()
+end
 
-	vim.cmd("hi clear")
+function M.load()
+	if vim.g.colors_name then
+		vim.cmd("highlight clear")
+	end
 	if vim.fn.exists("syntax_on") == 1 then
 		vim.cmd("syntax reset")
 	end

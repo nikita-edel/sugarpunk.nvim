@@ -1,1 +1,1 @@
-require("sugarpunk").setup()
+require("sugarpunk").load()

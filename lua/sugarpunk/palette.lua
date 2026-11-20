@@ -1,16 +1,13 @@
--- Honeypunk palette
--- MIT License — https://github.com/tatteddev/Honeypunk
-
--- highly modified honeypunk palette
+-- Based on the Honeypunk palette (MIT): https://github.com/tatteddev/Honeypunk
 
 local M = {
-	void = "#000000", -- i wanted the background to be deep black
-	gunmetal = "#101010", -- and other bg to be slightly lighter
+	void = "#000000",
+	gunmetal = "#101010",
+
 	slate_light = "#94A3B8",
 	off_white = "#E5E7EB",
 
 	electric_blue = "#00D1FF",
-	-- the original skript exported with RGBA which vim doesnt suppurt, this is a translation
 	electric_blue_dim = "#0099BB",
 	electric_blue_faint = "#1A3A45",
 
@@ -22,10 +19,8 @@ local M = {
 	signal_green = "#22C55E",
 	matrix_green = "#00FF41",
 	chrome_teal = "#14B8A6",
-	aurum_gold  = "#F5B700",
+	aurum_gold = "#F5B700",
 	neon_yellow = "#FFFF00",
-
-	none = "NONE",
 }
 
 return M
