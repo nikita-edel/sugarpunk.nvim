@@ -107,10 +107,14 @@ function M.apply()
 	hi("Underlined", { underline = true })
 	hi("Ignore", { fg = p.gunmetal })
 	hi("Error", { fg = p.synth_magenta, bold = true })
-	hi("Todo", { fg = p.void, bg = p.chrome_teal, bold = true })
+	hi("Todo", { fg = p.aurum_gold, bold = true })
 
 	-- treesitter
 	hi("@comment", { link = "Comment" })
+	hi("@comment.todo", { link = "Todo" })
+	hi("@comment.note", { link = "Todo" })
+	hi("@comment.warning", { link = "Todo" })
+	hi("@comment.error", { link = "Todo" })
 	hi("@comment.documentation", { fg = p.slate_light, italic = sComm.italic, bold = sComm.bold })
 	hi("@error", { link = "Error" })
 	hi("@keyword", { fg = p.synth_magenta, italic = sKeyw.italic, bold = sKeyw.bold })
@@ -254,12 +258,12 @@ function M.apply()
 	hi("diffLine", { fg = p.violet_flux })
 	hi("diffIndexLine", { fg = p.chrome_teal })
 
-	-- todo-comments
-	hi("TodoBgTODO", { fg = p.aurum_gold, bg = p.void, bold = true })
-	hi("TodoBgFIXME", { fg = p.aurum_gold, bg = p.void, bold = true })
-	hi("TodoBgNOTE", { fg = p.aurum_gold, bg = p.void, bold = true })
-	hi("TodoBgWARN", { fg = p.aurum_gold, bg = p.void, bold = true })
-	hi("TodoBgHACK", { fg = p.aurum_gold, bg = p.void, bold = true })
+	-- todo-comments (no backgrounds)
+	for _, kw in ipairs({ "TODO", "FIX", "FIXME", "NOTE", "WARN", "HACK", "PERF", "TEST" }) do
+		hi("TodoBg" .. kw, { fg = p.aurum_gold, bold = true })
+		hi("TodoFg" .. kw, { fg = p.aurum_gold })
+		hi("TodoSign" .. kw, { fg = p.aurum_gold })
+	end
 
 	-- noice
 	hi("NoiceCmdline", { fg = p.off_white, bg = p.void })
